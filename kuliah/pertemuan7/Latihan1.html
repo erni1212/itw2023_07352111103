@@ -4,25 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Border radius</title>
+    <title>Border Radius 2</title>
     <style>
-        .kotak1 {
-            width: 350px;
-            height: 350px;
-            margin: 50px auto;
-            position: relative;
-            background-color: chocolate;
-            background-image: url(img/sunset.jpg);
-            background-size: cover;
-            border-radius: 50%;
-        }
-        .kotak2 {
+        div {
             width: 300px;
             height: 300px;
-            margin: 50px auto;
-            
-            background-color: fuchsia;
-            box-shadow: 0 0 0 10px greenyellow, 0 0 0 20px lawngreen, 0 0 0 30px green;
+            background-color: blueviolet;
+            border-radius: 0 50% 0 50%;
+            text-align: center;
+            line-height: 300px;
+            overflow: hidden;
         }
         div img {
             width: 300px;
@@ -30,9 +21,8 @@
     </style>
 </head>
 <body>
-    <div class="kotak1"></div>
-    <div class="kotak2">
-        <img src="Ngopi.jpg">
+    <div>
+        <img src="sunset.jpg">
     </div>
 </body>
 </html>
